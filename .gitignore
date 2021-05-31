@@ -14,15 +14,12 @@
 .yarn-integrity
 /.changelog.tmp.md
 /.version.tmp.json
-/coverage
 /dist
 /lib
-/test-reports/
 build/Release
 cdk.out/
 coverage
 jspm_packages/
-junit.xml
 lerna-debug.log*
 lib-cov
 logs
@@ -49,5 +46,4 @@ yarn-error.log*
 !/src
 !/test
 !/tsconfig.eslint.json
-!/tsconfig.jest.json
 !/tsconfig.json
