@@ -8,6 +8,7 @@ const project = new AwsCdkTypeScriptApp({
   eslintOptions: {
     prettier: true,
   },
+  jest: false,
 
   // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
   // deps: [],                          /* Runtime dependencies of this module. */
