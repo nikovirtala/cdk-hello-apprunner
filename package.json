@@ -32,7 +32,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
-    "prettier": "^2.3.1",
+    "prettier": "^2.3.2",
     "projen": "^0.18.13",
     "standard-version": "^9",
     "ts-node": "^9",
