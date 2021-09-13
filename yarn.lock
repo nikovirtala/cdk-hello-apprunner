@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/assert@^2.0.0-rc.5":
+"@aws-cdk/assert@^2.0.0-rc.21":
   version "2.0.0-rc.21"
   resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-2.0.0-rc.21.tgz#611add4c4c435abd9249c29b3b0b38a93659d515"
   integrity sha512-T3v+SUTokq9aA+D+eNmjMsIBBJFAM5l1DBE0GNSCSfmkk4Q15SuLYPW9PALC43UYihdtWbb1Z9GEK1pQLvM5FQ==
@@ -607,7 +607,7 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk-lib@^2.0.0-rc.5:
+aws-cdk-lib@^2.0.0-rc.21:
   version "2.0.0-rc.21"
   resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.0.0-rc.21.tgz#f70de7970daaa1a0a722e6f5827665b808797f80"
   integrity sha512-FrPTgbj7vscXRc8A3ajFt2cSQIogD0hzvMuaF8PNL6L1syjxEnVzaL8RyPUZi98XebhhB6naHdnmNsDOL2wnwA==
@@ -627,7 +627,7 @@ aws-cdk-lib@^2.0.0-rc.5:
     table "^6.7.1"
     yaml "1.10.2"
 
-aws-cdk@^2.0.0-rc.5:
+aws-cdk@^2.0.0-rc.21:
   version "2.0.0-rc.21"
   resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.0.0-rc.21.tgz#58980d9d0484d01551033e8b464dba4e0d6fdd52"
   integrity sha512-oZvuUgSUg3Zs0fRQsnbXEYg6geaXi7yvlcQWxCELMaT4g/IdfkF+pgeaIPl212AUQMSvKmeVn5U6lUZjINA2pg==

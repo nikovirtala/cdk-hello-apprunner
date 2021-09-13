@@ -15,7 +15,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^2.0.0-rc.5",
+      "version": "^2.0.0-rc.21",
       "type": "build"
     },
     {
@@ -81,12 +81,12 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^2.0.0-rc.5",
+      "version": "^2.0.0-rc.21",
       "type": "runtime"
     },
     {
       "name": "aws-cdk-lib",
-      "version": "^2.0.0-rc.5",
+      "version": "^2.0.0-rc.21",
       "type": "runtime"
     },
     {
