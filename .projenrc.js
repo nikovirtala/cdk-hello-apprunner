@@ -2,21 +2,24 @@ const { AwsCdkTypeScriptApp } = require('projen');
 const project = new AwsCdkTypeScriptApp({
   license: 'MIT',
   copyrightOwner: 'Niko Virtala',
-  cdkVersion: '2.0.0-rc.21',
+  cdkVersion: '2.0.0-rc.24',
   defaultReleaseBranch: 'main',
   name: 'cdk-hello-apprunner',
+  depsUpgradeOptions: {
+    ignoreProjen: false,
+    workflowOptions: {
+      labels: ['auto-approve', 'auto-merge'],
+      secret: 'AUTOMATION_TOKEN',
+    },
+  },
+  autoApproveOptions: {
+    secret: 'GITHUB_TOKEN',
+    allowedUsernames: ['nikovirtala'],
+  },
   eslint: true,
   eslintOptions: {
     prettier: true,
   },
   jest: false,
-
-  // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
-  // deps: [],                          /* Runtime dependencies of this module. */
-  // description: undefined,            /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],                       /* Build dependencies for this module. */
-  // packageName: undefined,            /* The "name" in package.json. */
-  // projectType: ProjectType.UNKNOWN,  /* Which type of project this is (library/app). */
-  // releaseWorkflow: undefined,        /* Define a GitHub workflow for releasing from "main" when new versions are bumped. */
 });
 project.synth();

@@ -2,6 +2,7 @@
 !/.gitattributes
 !/.projen/tasks.json
 !/.projen/deps.json
+!/.github/workflows/auto-approve.yml
 !/.github/workflows/stale.yml
 !/package.json
 !/LICENSE
@@ -32,16 +33,16 @@ jspm_packages/
 !/.projenrc.js
 !/.github/workflows/build.yml
 !/.mergify.yml
-!/.github/workflows/upgrade.yml
 !/.github/pull_request_template.md
 !/test/
 !/tsconfig.json
+!/tsconfig.dev.json
 !/src/
 /lib
 /dist/
 !/.eslintrc.json
-!/tsconfig.eslint.json
 cdk.out/
 .cdk.staging/
 .parcel-cache/
 !/cdk.json
+!/.github/workflows/upgrade.yml
