@@ -2,7 +2,7 @@ const { AwsCdkTypeScriptApp } = require('projen');
 const project = new AwsCdkTypeScriptApp({
   license: 'MIT',
   copyrightOwner: 'Niko Virtala',
-  cdkVersion: '2.0.0-rc.24',
+  cdkVersion: '2.0.0',
   defaultReleaseBranch: 'main',
   name: 'cdk-hello-apprunner',
   depsUpgradeOptions: {

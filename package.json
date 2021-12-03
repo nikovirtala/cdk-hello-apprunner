@@ -21,7 +21,7 @@
     "@types/node": "^14.17.0",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "aws-cdk": "^2.0.0-rc.24",
+    "aws-cdk": "^2.0.0",
     "eslint": "^8",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.6",
@@ -31,13 +31,13 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^11",
     "prettier": "^2.5.0",
-    "projen": "^0.36.4",
+    "projen": "^0.36.5",
     "ts-node": "^9",
     "typescript": "^4.5.2"
   },
   "dependencies": {
-    "@aws-cdk/assert": "^2.0.0-rc.24",
-    "aws-cdk-lib": "^2.0.0-rc.24",
+    "@aws-cdk/assert": "^2.0.0",
+    "aws-cdk-lib": "^2.0.0",
     "constructs": "^10.0.5"
   },
   "bundledDependencies": [],
