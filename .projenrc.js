@@ -2,7 +2,7 @@ const { awscdk } = require('projen');
 const project = new awscdk.AwsCdkTypeScriptApp({
   license: 'MIT',
   copyrightOwner: 'Niko Virtala',
-  cdkVersion: '2.0.0',
+  cdkVersion: '2',
   defaultReleaseBranch: 'main',
   name: 'cdk-hello-apprunner',
   depsUpgradeOptions: {
