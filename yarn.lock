@@ -945,9 +945,9 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^10.0.5:
-  version "10.0.10"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.10.tgz#ab0dfcecfb7f10419c512cd3f5b809ef034882cc"
-  integrity sha512-lQqY39wuQksXfm63rxcplif8CpW7ZuGWqQNGG/qoxfVeBjG4DWpCzD3K3pVukRCe+EhvsIvLpZxfL6SKLAfvlw==
+  version "10.0.12"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.12.tgz#64f314d87f7cdf6da127c9eb0bf6a3d990989c4a"
+  integrity sha512-wVQcQgwwK7b//7yI54/3hundmXAw7RBpuy5f6yIBFNceJr8feTK6Cs2I2f3+gp3/ikszzTouLup9AzxioEEXPQ==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2111,9 +2111,9 @@ is-lambda@^1.0.1:
   integrity sha1-PZh3iZ5qU+/AFgUEzeFfgubwYdU=
 
 is-negative-zero@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/is-negative-zero/-/is-negative-zero-2.0.1.tgz#3de746c18dda2319241a53675908d8f766f11c24"
-  integrity sha512-2z6JzQvZRa9A2Y7xC6dQQm4FSTSTNWjKIYYTt4246eMTJmIo0Q+ZyOsU66X8lxK1AbB92dFeglPLrhwpeRKO6w==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/is-negative-zero/-/is-negative-zero-2.0.2.tgz#7bf6f03a28003b8b3965de3ac26f664d765f3150"
+  integrity sha512-dqJvarLawXsFbNDeJW7zAz8ItJ9cd28YufuuFzh0G8pNHjJMnY08Dv7sYX2uF5UpQOwieAeOExEYAWWfu7ZZUA==
 
 is-npm@^5.0.0:
   version "5.0.0"
@@ -2175,11 +2175,11 @@ is-typedarray@^1.0.0, is-typedarray@~1.0.0:
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
 
 is-weakref@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/is-weakref/-/is-weakref-1.0.1.tgz#842dba4ec17fa9ac9850df2d6efbc1737274f2a2"
-  integrity sha512-b2jKc2pQZjaeFYWEf7ScFj+Be1I+PXmlu572Q8coTXZ+LD/QQZ7ShPMst8h16riVgyXTQwUsFEl74mDvc/3MHQ==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/is-weakref/-/is-weakref-1.0.2.tgz#9529f383a9338205e89765e0392efc2f100f06f2"
+  integrity sha512-qctsuLZmIQ0+vSSMfoVvyFe2+GSEvnmZ2ezTup1SBse9+twCCeial6EEi3Nc2KFcf6+qz2FBPnjXsk8xhKSaPQ==
   dependencies:
-    call-bind "^1.0.0"
+    call-bind "^1.0.2"
 
 is-yarn-global@^0.3.0:
   version "0.3.0"
@@ -3107,10 +3107,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.40.0:
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.40.0.tgz#96ca70443328247481676cc9c351218313ba2d91"
-  integrity sha512-e1Dh6xsHDayUiOh7faAOZ02xv7rnrP2JHm5b16FJLr2zYIseqVadedATZsdK+EtYKap1/iUOxnp0wXdqYxhaog==
+projen@^0.40.1:
+  version "0.40.1"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.40.1.tgz#15c8a206fb2d921f3f7c759215b320ab91805059"
+  integrity sha512-osSb8/PLxDrWomaOtFIh6uL4uU4cYuUg4/up8tMEfOEwo4Mn0taRtqdg2xn/1qErZhSWZ2npkIWnIAT9687Ozw==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
