@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@types/node",
-      "version": "^14.17.0",
+      "version": "^12",
       "type": "build"
     },
     {
@@ -17,7 +17,11 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^2",
+      "version": "^2.1.0",
+      "type": "build"
+    },
+    {
+      "name": "esbuild",
       "type": "build"
     },
     {
@@ -51,7 +55,7 @@
     },
     {
       "name": "npm-check-updates",
-      "version": "^11",
+      "version": "^12",
       "type": "build"
     },
     {
@@ -72,13 +76,8 @@
       "type": "build"
     },
     {
-      "name": "@aws-cdk/assert",
-      "version": "^2",
-      "type": "runtime"
-    },
-    {
       "name": "aws-cdk-lib",
-      "version": "^2",
+      "version": "^2.1.0",
       "type": "runtime"
     },
     {
