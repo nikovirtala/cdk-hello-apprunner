@@ -76,6 +76,11 @@
       "type": "build"
     },
     {
+      "name": "@aws-cdk/aws-apprunner-alpha",
+      "version": "2.3.0-alpha.0",
+      "type": "runtime"
+    },
+    {
       "name": "aws-cdk-lib",
       "version": "^2.1.0",
       "type": "runtime"

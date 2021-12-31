@@ -6,6 +6,7 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   devDeps: ['prettier'],
   defaultReleaseBranch: 'main',
   name: 'cdk-hello-apprunner',
+  deps: ['@aws-cdk/aws-apprunner-alpha@2.3.0-alpha.0'],
   depsUpgradeOptions: {
     ignoreProjen: false,
   },

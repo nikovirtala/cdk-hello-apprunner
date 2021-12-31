@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@aws-cdk/aws-apprunner-alpha@2.3.0-alpha.0":
+  version "2.3.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apprunner-alpha/-/aws-apprunner-alpha-2.3.0-alpha.0.tgz#1dbdfbbc391b7ddc238c4cb4e1912fb89c780540"
+  integrity sha512-DwTUfCHnOSfwHfPlsd2Ypwr04H3xXT9vj30eLXORgBTWD0mRHTUfJl7uua2inmGy+IHk8qkjIaAeyW2rgG0n4w==
+
 "@aws-cdk/cfnspec@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/cfnspec/-/cfnspec-2.3.0.tgz#e9cd449b7afd0a20c97c489a9fcc26668f02b8f9"
