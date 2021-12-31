@@ -26,7 +26,7 @@ jobs:
           git add .
 
           git diff --staged --patch --exit-code > .repo.patch || echo "::set-output name=patch_created::true"
-      - if: ${{ steps.create_patch.outputs.patch_created }}
+      - if: steps.create_patch.outputs.patch_created
         name: Upload patch
         uses: actions/upload-artifact@v2
         with:
@@ -61,7 +61,7 @@ jobs:
         id: create-pr
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.AUTOMATION_TOKEN }}
+          token: ${{ secrets.PROJEN_GITHUB_TOKEN }}
           commit-message: >-
             chore(deps): upgrade dependencies
 
@@ -78,7 +78,6 @@ jobs:
             *Automatically created by projen via the "upgrade" workflow*
           branch: github-actions/upgrade
           title: "chore(deps): upgrade dependencies"
-          labels: auto-approve,auto-merge
           body: >-
             Upgrades project dependencies. See details in [workflow run].
 

@@ -8,13 +8,9 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   name: 'cdk-hello-apprunner',
   depsUpgradeOptions: {
     ignoreProjen: false,
-    workflowOptions: {
-      labels: ['auto-approve', 'auto-merge'],
-      secret: 'AUTOMATION_TOKEN',
-    },
   },
+  depsUpgradeAutoMerge: true,
   autoApproveOptions: {
-    secret: 'GITHUB_TOKEN',
     allowedUsernames: ['nikovirtala'],
   },
   eslint: true,
