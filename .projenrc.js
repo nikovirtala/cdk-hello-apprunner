@@ -9,6 +9,9 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   deps: ['@aws-cdk/aws-apprunner-alpha@2.3.0-alpha.0'],
   depsUpgradeOptions: {
     ignoreProjen: false,
+    workflowOptions: {
+      labels: ['auto-approve', 'auto-merge'],
+    },
   },
   depsUpgradeAutoMerge: true,
   autoApproveOptions: {
