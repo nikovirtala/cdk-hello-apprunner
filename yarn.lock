@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/aws-apprunner-alpha@2.3.0-alpha.0":
-  version "2.3.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apprunner-alpha/-/aws-apprunner-alpha-2.3.0-alpha.0.tgz#1dbdfbbc391b7ddc238c4cb4e1912fb89c780540"
-  integrity sha512-DwTUfCHnOSfwHfPlsd2Ypwr04H3xXT9vj30eLXORgBTWD0mRHTUfJl7uua2inmGy+IHk8qkjIaAeyW2rgG0n4w==
+"@aws-cdk/aws-apprunner-alpha@2.17.0-alpha.0":
+  version "2.17.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apprunner-alpha/-/aws-apprunner-alpha-2.17.0-alpha.0.tgz#3e52cb20edeb1177cfc88ea675e06799fe6869a6"
+  integrity sha512-Zxy9oLJyBkj4DhhwaQPeVRZpMsJucfdxkwPuG+u04pPq8x+Db1EPCUQZ89A76XNtvKGegfQoQcBIVeYmLLUbPg==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -407,7 +407,7 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk-lib@^2.1.0:
+aws-cdk-lib@^2.17.0:
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.17.0.tgz#822b397fbc1a44f647abbdb31d6a85f18bd89043"
   integrity sha512-bga2HptbGx3rMdSkIKxBS13miogj/DHB2VPfQZAoKoCOAanOot+M3mHhYqe5aNdxhrppaRjG2eid2p1/MvRnvg==
@@ -422,7 +422,7 @@ aws-cdk-lib@^2.1.0:
     semver "^7.3.5"
     yaml "1.10.2"
 
-aws-cdk@^2.1.0:
+aws-cdk@^2.17.0:
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.17.0.tgz#cb9149c55f1bec54eacfe0242d3454faf4292e2e"
   integrity sha512-gRPPpTONOjtQ40A8sc2SzXPGDzFlVbSPPts1pjOx4VBJ2S91A0ON3Fkby+XX/Xqdo1GITTWAk5Va4PnoYyUhmA==
@@ -1989,9 +1989,9 @@ minimatch@^5.0.1:
     brace-expansion "^2.0.1"
 
 minimist@^1.2.0, minimist@^1.2.3:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 minipass-collect@^1.0.2:
   version "1.0.2"
@@ -2457,10 +2457,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.53.5:
-  version "0.53.5"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.53.5.tgz#dd324cfd2b9ab224be8de0e8af2a422db24ead7d"
-  integrity sha512-v9/BpP4TiNX3aWM8aZnbE1HqWND6z1x315covdHVMzHwbIqa0aWzHQvd7qbEZex1zMxodieB4J0TYN8XQZVptg==
+projen@^0.53.6:
+  version "0.53.6"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.53.6.tgz#d4626a409df216ae7a2eae9bf4c99400ebacccb6"
+  integrity sha512-rzIuIyjrth/tD37aupgpVP55/qtL9swegYJdyxSG8E9oa+1dHUtuRCKRvoExBCrt+yudbWX8sp2gVTxQnjttsA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
