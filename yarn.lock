@@ -190,14 +190,14 @@
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
 "@types/node@*":
-  version "17.0.25"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.25.tgz#527051f3c2f77aa52e5dc74e45a3da5fb2301448"
-  integrity sha512-wANk6fBrUwdpY4isjWrKTufkrXdu1D2YHCot2fD/DfWxF5sMrVSA+KN7ydckvaTCh0HiqX9IVl0L5/ZoXg5M7w==
+  version "17.0.26"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.26.tgz#1bbff9b23ee5a64f87b4f30c0c854b112ee2e635"
+  integrity sha512-z/FG/6DUO7pnze3AE3TBGIjGGKkvCcGcWINe1C7cADY8hKLJPDYpzsNE37uExQ4md5RFtTCvg+M8Mu1Enyeg2A==
 
 "@types/node@^12":
-  version "12.20.48"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.48.tgz#55f70bd432b6515828c0298689776861b90ca4fa"
-  integrity sha512-4kxzqkrpwYtn6okJUcb2lfUu9ilnb3yhUOH6qX3nug8D2DupZ2drIkff2yJzYcNJVl3begnlcaBJ7tqiTTzjnQ==
+  version "12.20.49"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.49.tgz#97897a33dd145490f514bbcbccefc178534e360f"
+  integrity sha512-5e6QNb9bkeh4Hni4ktLqUZuUqnGTX/kou2aZkXyxtuYaHXgBm+In1SHR9V+7kDzWzjB08KC2uqt2doDi7cuAAA==
 
 "@typescript-eslint/eslint-plugin@^5":
   version "5.20.0"
@@ -649,9 +649,9 @@ console-control-strings@^1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^10.0.5:
-  version "10.0.124"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.124.tgz#96ecf7b4fb6797bc9930810ee6c068824f933b1a"
-  integrity sha512-jL8biyHZb5XdalUGLWazC1BP0/xeQnbgjCDBe8V0r2D/E5toPs5zmE72H5rcow2KRX4DGScHX1Kcm5H216TF3Q==
+  version "10.0.125"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.0.125.tgz#b8160bfe5733d6183549c2516d2c2a0595638faf"
+  integrity sha512-OofXt3OiQ05zENndLN9CmucJs0frkmPrgaikiudXj/uJVW6Op1kl3HINpB6oC71mZ/QXQWMnYof0wcWqEPi7Og==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
