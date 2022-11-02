@@ -303,9 +303,9 @@
     keyv "*"
 
 "@types/node@*":
-  version "18.11.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.8.tgz#16d222a58d4363a2a359656dd20b28414de5d265"
-  integrity sha512-uGwPWlE0Hj972KkHtCDVwZ8O39GmyjfMane1Z3GUBGGnkZ2USDq7SxLpVIiIHpweY9DS0QTDH0Nw7RNBsAAZ5A==
+  version "18.11.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.9.tgz#02d013de7058cea16d36168ef2fc653464cfbad4"
+  integrity sha512-CRpX21/kGdzjOpFsZSkcrXMGIBWMGNIHXXBVFSH+ggkftxg+XYP20TESbh+zFvFj3EQOl5byk0HTRn1IL6hbqg==
 
 "@types/node@^14":
   version "14.18.33"
@@ -552,9 +552,9 @@ at-least-node@^1.0.0:
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
 aws-cdk-lib@^2.33.0:
-  version "2.49.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.49.0.tgz#0cd8bd51191219c7f1581c5d61f138942eb33785"
-  integrity sha512-HMrV41VaYVLFhm5i35bXuxiiib8IXPwuspDF7W3LJ4WVwxQZWx4eGcvRAdaXuNM7dDwM52cF5BNl8lYa/xCt5Q==
+  version "2.50.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.50.0.tgz#2b3a9ba4c1c4c56fd32e3e4f57eea8bf9fa3dbba"
+  integrity sha512-deDbZTI7oyu3rqUyqjwhP6tnUO8MD70lE98yR65xiYty4yXBpsWKbeH3s1wNLpLAWS3hWJYyMtjZ4ZfC35NtVg==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -567,9 +567,9 @@ aws-cdk-lib@^2.33.0:
     yaml "1.10.2"
 
 aws-cdk@^2.33.0:
-  version "2.49.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.49.0.tgz#db82caa0f1c6f05e4ebb41ee48a8102fcfb2dc85"
-  integrity sha512-C+/B8mO85wlKv+/pDtm1OlObIRVaj/XSpWOR31Q6TgxVxJeLnH2K4B/aik+l7yZK45arpUpK2Ka0fvSfTDJvqQ==
+  version "2.50.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.50.0.tgz#6c6d723ba66b24245f58c363071ce20a17eabbed"
+  integrity sha512-55vmKTf2DZRqioumVfXn+S0H9oAbpRK3HFHY8EjZ5ykR5tq2+XiMWEZkYduX2HJhVAeHJJIS6h+Okk3smZjeqw==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -824,9 +824,9 @@ console-control-strings@^1.1.0:
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
 
 constructs@^10.0.5:
-  version "10.1.146"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.146.tgz#673283218f7caf498ed548776b17087e30589d8c"
-  integrity sha512-HBCMNisXaQ9+gDz9hTto4aTT3h8l4SD2fMbYN0UwMJKnPwReXH0YJaZBtgRSk9Qj7KfrZcrRDitpIboxctcj2g==
+  version "10.1.147"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.147.tgz#5ca388fd546ea87bc520f1705ea8de6dc00d03ab"
+  integrity sha512-rM2Mc5PJ+zS4h2T2zJeUQTLYYOs4vHaXGCV8a1P+s3aknL8ATmgKui4cOMypa6yJxFW2b74VcgRpt/dhA2eE6g==
 
 conventional-changelog-config-spec@^2.1.0:
   version "2.1.0"
@@ -2635,10 +2635,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.65.6:
-  version "0.65.6"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.65.6.tgz#f2747773f7277df968fbedbfbdfc7213e34d61e9"
-  integrity sha512-yJsEzgWqDHkvmlAMkRFYc2BrWslZA6DqkT55hrhLNFmBYwnn/gLDl41sx0vmTUmnjgmk6XNGnf3o438iUPYquw==
+projen@^0.65.8:
+  version "0.65.8"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.65.8.tgz#b436dfee700742ae188559296bee95d41a445cb5"
+  integrity sha512-wY072Qy+aaUOXJXPljgVlnrcyNRg9shjvwMfiqGHCGJJj6yaozBs91sFp7pq7bF3WTItdJptUzGvVZ7CqnE20Q==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -3134,9 +3134,9 @@ supports-preserve-symlinks-flag@^1.0.0:
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
 tar@^6.1.11, tar@^6.1.2:
-  version "6.1.11"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.11.tgz#6760a38f003afa1b2ffd0ffe9e9abbd0eab3d621"
-  integrity sha512-an/KZQzQUkZCkuoAA64hM92X0Urb6VpRhAFllDzz44U2mcD5scmT3zBc4VgVpkugF580+DQn8eAFSyoQt0tznA==
+  version "6.1.12"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.12.tgz#3b742fb05669b55671fb769ab67a7791ea1a62e6"
+  integrity sha512-jU4TdemS31uABHd+Lt5WEYJuzn+TJTCBLljvIAHZOz6M9Os5pJ4dD+vRFLxPa/n3T0iEFzpi+0x1UfuDZYbRMw==
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
