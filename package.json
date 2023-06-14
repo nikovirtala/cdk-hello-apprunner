@@ -26,7 +26,7 @@
     "@types/node": "^16",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "aws-cdk": "^2.33.0",
+    "aws-cdk": "^2.83.1",
     "esbuild": "^0.18.2",
     "eslint": "^8",
     "eslint-config-prettier": "^8.8.0",
@@ -41,8 +41,8 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@aws-cdk/aws-apprunner-alpha": "2.33.0-alpha.0",
-    "aws-cdk-lib": "^2.33.0",
+    "@aws-cdk/aws-apprunner-alpha": "2.83.1-alpha.0",
+    "aws-cdk-lib": "^2.83.1",
     "constructs": "^10.0.5"
   },
   "license": "MIT",

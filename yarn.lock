@@ -17,10 +17,10 @@
   resolved "https://registry.yarnpkg.com/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.163.tgz#80498026421ff6140af822b57b8e495be1e156ed"
   integrity sha512-9sOZlAOI2rVfEpHp6TK4bLRsqHCQu+DchJY1twxa55BCEUvdKG/rKJjpr/oGJqKcOmoeHJWQjYoKgo6sdI4SZQ==
 
-"@aws-cdk/aws-apprunner-alpha@2.33.0-alpha.0":
-  version "2.33.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apprunner-alpha/-/aws-apprunner-alpha-2.33.0-alpha.0.tgz#c642d9df525ecdf60bba1a2fbbaf54ec12fe0f49"
-  integrity sha512-bepMy2CAxW1qWsmUJHahcYHW5YJYHXkZ4e0d/HpVPZUsLl+0/BbrynYdsqEm/29v/HLfoD6YlOLThFKEVefYFg==
+"@aws-cdk/aws-apprunner-alpha@2.83.1-alpha.0":
+  version "2.83.1-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apprunner-alpha/-/aws-apprunner-alpha-2.83.1-alpha.0.tgz#9ec1a5cde3c023dfc59a5ca69422f0409ae97ced"
+  integrity sha512-/2AQ3AYnueV8B1dT6VayT9VXxx7oIy9/0AcH3mPPwPhx/Cxl+qzMkVxoNZDmxfzcEb2OlTnNMyqy2dxkRvJAVA==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -718,7 +718,7 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-aws-cdk-lib@^2.33.0:
+aws-cdk-lib@^2.83.1:
   version "2.83.1"
   resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.83.1.tgz#ee2a3dde7af0540cc091d5c9f3fb401470f830e7"
   integrity sha512-bFYXJDRyuH9x/xmANucKiEzzAbF683XDKOEmSivEgIkGP3zYkZ6beWajSAOQqRsm1VOPjgcpFuJtggUOkdPVKg==
@@ -737,7 +737,7 @@ aws-cdk-lib@^2.33.0:
     table "^6.8.1"
     yaml "1.10.2"
 
-aws-cdk@^2.33.0:
+aws-cdk@^2.83.1:
   version "2.83.1"
   resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.83.1.tgz#a71c226f806b2e2ccfff0a5b3c1037759b1c15ee"
   integrity sha512-hM2fsHl2TXk3B0MTq7zRU/KqJiVrnTQ3SXbAfleQCfCf/Jpy6yD6nGqrEADFAYNLSPoA9iC3SLnO73SPqqjjRQ==
