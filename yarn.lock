@@ -2834,10 +2834,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.74.6:
-  version "0.74.6"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.74.6.tgz#ed94739005b001bd9150a61f4fa655ae9bad2494"
-  integrity sha512-LBxLc7bS/qJ9u1SDQ+rmhly7wk9VUusAaOOC8vMVp1u/38d2kl4pp6JxsWcwiDvD6505Yf86onXXaSWibjHySA==
+projen@^0.74.7:
+  version "0.74.7"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.74.7.tgz#9fc9dc8db7218fd5489c8846f2eb28bac885dc87"
+  integrity sha512-t7EmHVzTCEZtsPrEhqOJza6ONH1grOLtKPezzWfdYqXx/Eo3sJl1+I9QO26ZjB2tptEco8YyFfyeBf0Vrpzcpg==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -3009,9 +3009,9 @@ resolve-from@^4.0.0:
   integrity sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
 
 resolve@^1.1.6, resolve@^1.22.0, resolve@^1.22.4:
-  version "1.22.6"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.6.tgz#dd209739eca3aef739c626fea1b4f3c506195362"
-  integrity sha512-njhxM7mV12JfufShqGy3Rz8j11RPdLy4xi15UurGJeoHLfJpVXKdh3ueuOqbYUcDZnffr6X739JBo5LzyahEsw==
+  version "1.22.8"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.8.tgz#b6c87a9f2aa06dfab52e3d70ac8cde321fa5a48d"
+  integrity sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==
   dependencies:
     is-core-module "^2.13.0"
     path-parse "^1.0.7"
