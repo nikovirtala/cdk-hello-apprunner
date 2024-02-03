@@ -559,9 +559,9 @@ available-typed-arrays@^1.0.5, available-typed-arrays@^1.0.6:
   integrity sha512-j1QzY8iPNPG4o4xmO3ptzpRxTciqD3MgEHtifP/YnJpIo58Xu+ne4BejlbkuaLfXn/nz6HFiw29bLpj2PNMdGg==
 
 aws-cdk-lib@^2.83.1:
-  version "2.125.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.125.0.tgz#c3b1f2f6b8aed8b1ac8cee233ceea471a09f427f"
-  integrity sha512-yRcHuvpPYHuvffeJCnTSIqo6y+Qjeuf+BKmr/oyMcMhyfIzcGFFhh+ZQRCTYIJTfTyU6nh73TLhsZ4TmzFuBBA==
+  version "2.126.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.126.0.tgz#9b64a798b35f5d4843588b0548ed695e8b5ef5d8"
+  integrity sha512-HlwBYiqNCfhPUyozjoV4zJIBgH0adE/zTVATmeaM1jcNGs6jwkPMpWsF75JuXOoVtkcfpBFyNKloGd82nTiB0A==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.202"
     "@aws-cdk/asset-kubectl-v20" "^2.1.2"
@@ -578,9 +578,9 @@ aws-cdk-lib@^2.83.1:
     yaml "1.10.2"
 
 aws-cdk@^2.83.1:
-  version "2.125.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.125.0.tgz#e5944cd3d17feaf2b6730f2ada547f9758fcddcd"
-  integrity sha512-6qFtaDPzhddhwIbCpqBjMePzZS7bfthGFQYfcwF1OhqMv2f3VpHQQ0f7kz4UxXJXUIR5BbgCnlpawH3c0aNzKw==
+  version "2.126.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.126.0.tgz#865a46db2ae23c8f629fd128fb2346f51a741b62"
+  integrity sha512-hEyy8UCEEUnkieH6JbJBN8XAbvuVZNdBmVQ8wHCqo8RSNqmpwM1qvLiyXV/2JvCqJJ0bl9uBiZ98Ytd5i3wW7g==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -1474,11 +1474,11 @@ is-symbol@^1.0.2, is-symbol@^1.0.3:
     has-symbols "^1.0.2"
 
 is-typed-array@^1.1.10, is-typed-array@^1.1.12, is-typed-array@^1.1.9:
-  version "1.1.12"
-  resolved "https://registry.yarnpkg.com/is-typed-array/-/is-typed-array-1.1.12.tgz#d0bab5686ef4a76f7a73097b95470ab199c57d4a"
-  integrity sha512-Z14TF2JNG8Lss5/HMqt0//T9JeHXttXy5pH/DBU4vi98ozO2btxzq9MwYDZYnKwU8nRsz/+GVFVRDq3DkVuSPg==
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/is-typed-array/-/is-typed-array-1.1.13.tgz#d6c5ca56df62334959322d7d7dd1cca50debe229"
+  integrity sha512-uZ25/bUAlUY5fR4OKT4rZQEBrzQWYV9ZJYGGsUmEJ6thodVJ1HX64ePQ6Z0qPWP+m+Uq6e9UugrE38jeYsDSMw==
   dependencies:
-    which-typed-array "^1.1.11"
+    which-typed-array "^1.1.14"
 
 is-weakref@^1.0.2:
   version "1.0.2"
@@ -2209,7 +2209,7 @@ which-boxed-primitive@^1.0.2:
     is-string "^1.0.5"
     is-symbol "^1.0.3"
 
-which-typed-array@^1.1.11, which-typed-array@^1.1.13:
+which-typed-array@^1.1.13, which-typed-array@^1.1.14:
   version "1.1.14"
   resolved "https://registry.yarnpkg.com/which-typed-array/-/which-typed-array-1.1.14.tgz#1f78a111aee1e131ca66164d8bdc3ab062c95a06"
   integrity sha512-VnXFiIW8yNn9kIHN88xvZ4yOWchftKDsRJ8fEPacX/wl1lOvBrhsJ/OeJCXq7B0AaijRuqgzSKalJoPk+D8MPg==
