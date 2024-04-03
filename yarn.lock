@@ -309,9 +309,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@^18":
-  version "18.19.28"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.28.tgz#c64a2c992c8ebbf61100a4570e4eebc1934ae030"
-  integrity sha512-J5cOGD9n4x3YGgVuaND6khm5x07MMdAKkRyXnjVR6KFhLMNh2yONGiP7Z+4+tBOt5mK+GvDTiacTOVGGpqiecw==
+  version "18.19.29"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.29.tgz#e7e9d796c1e195be7e7daf82b4abc50d017fb9db"
+  integrity sha512-5pAX7ggTmWZdhUrhRWLPf+5oM7F80bcKVCBbr0zwEkTNzTJL2CWQjznpFgHYy6GrzkYi2Yjy7DHKoynFxqPV8g==
   dependencies:
     undici-types "~5.26.4"
 
@@ -564,9 +564,9 @@ available-typed-arrays@^1.0.7:
     possible-typed-array-names "^1.0.0"
 
 aws-cdk-lib@^2.83.1:
-  version "2.134.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.134.0.tgz#92b53afed0d2bc4378211638d8ab056577b36840"
-  integrity sha512-fjJLsZ7L+HLVSOGfYxMcAbUYBb1I/UWLH9STkPiytT+hWQNN6lmZYLDHlqCqcS8gFyyCqu4i3KOOt/ZDHDVo2Q==
+  version "2.135.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.135.0.tgz#72865afce0556b66c494c054d5a03f72c94acfe8"
+  integrity sha512-0RcmhPqJyMFgXqjESv+LilL7TfOQ7uZ4G125hp5/sSoaM7IFz/L3KDAUKVW/01rrebOQo0NZR9M7WIU3JJ7ezQ==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.202"
     "@aws-cdk/asset-kubectl-v20" "^2.1.2"
@@ -580,13 +580,13 @@ aws-cdk-lib@^2.83.1:
     minimatch "^3.1.2"
     punycode "^2.3.1"
     semver "^7.6.0"
-    table "^6.8.1"
+    table "^6.8.2"
     yaml "1.10.2"
 
 aws-cdk@^2.83.1:
-  version "2.134.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.134.0.tgz#029b126df81ed5e4c95390bb1a112fb2c07fca15"
-  integrity sha512-/0rygJZpBMK4DQHciMH6ZR4bnQ80/6usHMXmJrvwbSpKFW2WpkYKwzpAxnnQeiyzfEIIUoB+oyIy7EmKS1HLtA==
+  version "2.135.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.135.0.tgz#a44574104ac543b38f0e0652b971d77e625a9073"
+  integrity sha512-id/kBxDvXQhcPYhkP/3fwhaKN0uD3raz1Z4RZcO9jJ4UoQV2RElQl+dYdmIrwNSoNVhtZeV1O4IdEtBHUhdShQ==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -1872,10 +1872,10 @@ prettier@^2.8.8:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
-projen@^0.80.15:
-  version "0.80.15"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.80.15.tgz#e30cb9dfcb10cef843ba6a43bb4f2635913caed4"
-  integrity sha512-wOKRoC7s6Gt7EObOW7Rn/CgeJF3yicjbIt3Hb+dkol+DhppGMAd+SkViTF2X/f3l8WjI/cZR0aAtu3DJyyZrUA==
+projen@^0.80.16:
+  version "0.80.16"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.80.16.tgz#93acf4884f7d21a246a2292e82ffe75c2f9ace47"
+  integrity sha512-6frbH4WsvXuzRAujqkR4IVP0/3dO0ceg7fKt54zqrDBqu9Wi6nmb7eaag/GN9ijf7T8uNmGQ0cOJNrZnztPOTA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -2144,7 +2144,7 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-table@^6.8.1:
+table@^6.8.2:
   version "6.8.2"
   resolved "https://registry.yarnpkg.com/table/-/table-6.8.2.tgz#c5504ccf201213fa227248bdc8c5569716ac6c58"
   integrity sha512-w2sfv80nrAh2VCbqR5AK27wswXhqcck2AhfnNW76beQXskGZ1V12GwS//yYVa3d3fcvAip2OUnbDAjW2k3v9fA==
