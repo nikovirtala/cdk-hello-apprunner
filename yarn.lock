@@ -551,9 +551,9 @@ available-typed-arrays@^1.0.7:
     possible-typed-array-names "^1.0.0"
 
 aws-cdk-lib@^2.83.1:
-  version "2.151.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.151.0.tgz#44559660430c10da6697320b81c496118ba3ce93"
-  integrity sha512-SIzzOGSYO+s1f+y2zyGKK8wH5JmN+nkrGOL28iHzmx9lXK0NaT0+d5sjTbzLo2C8iogzbR91yGnIKze0GzZXHg==
+  version "2.151.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.151.1.tgz#96bffa270d404363162f8cb7c00ccfbafe309083"
+  integrity sha512-6S0oANKvwqwDOgEDb7UfP2N4Q+YaAGL+k/xvlJ+PDj2ZoZXKgVSC2veqo4jD6mdZZhtIJImLq0frfe/vofvnPA==
   dependencies:
     "@aws-cdk/asset-awscli-v1" "^2.2.202"
     "@aws-cdk/asset-kubectl-v20" "^2.1.2"
@@ -571,9 +571,9 @@ aws-cdk-lib@^2.83.1:
     yaml "1.10.2"
 
 aws-cdk@^2.83.1:
-  version "2.151.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.151.0.tgz#5ae6b7cc66f0a183a434ffa2efee47a2f5eb4bf4"
-  integrity sha512-+pM3mTXjzZk44U5q+jaji5Y1X8J2c4ro8szqm2V/Wwa+xXCsJfVwJYiQbstSZkOz6ondfgkrJKtx6EzaodxRNw==
+  version "2.151.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.151.1.tgz#1bc76e97ad5d461681c336b88765920bc25fbbb8"
+  integrity sha512-jaY679MR3eGKZ/UuYh3tMoS2Adh+NNOEG81KYivpOXvp7K/yTACbNYWI954YI6iG4zwzoz/L+52UM4+BQ7xZdg==
   optionalDependencies:
     fsevents "2.3.2"
 
