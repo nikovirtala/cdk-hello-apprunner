@@ -23,9 +23,9 @@
   integrity sha512-/2AQ3AYnueV8B1dT6VayT9VXxx7oIy9/0AcH3mPPwPhx/Cxl+qzMkVxoNZDmxfzcEb2OlTnNMyqy2dxkRvJAVA==
 
 "@aws-cdk/cloud-assembly-schema@^36.0.5":
-  version "36.0.19"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-36.0.19.tgz#7c3857bd1579b2049bc57e79d824ac3ad96b2e21"
-  integrity sha512-hl8IJpoSMNwUWc1OoTrA4IlFX920/o95oKPiChvQyfcUPedscolM0ThiJqsh1XjpXE1G40JBgOdi3MN1hrrslA==
+  version "36.0.20"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/cloud-assembly-schema/-/cloud-assembly-schema-36.0.20.tgz#be803a510a5cabc35348b15c2ac758e6d769f307"
+  integrity sha512-pvuY9V431KwTZJtO/eeH3j34vF2I4VadXHX1RMQcsSFy4a2v2VZyAbXXI6s0Cc7X7bwZDfWdsfjjNhspO0nr2w==
   dependencies:
     jsonschema "^1.4.1"
     semver "^7.6.3"
@@ -930,9 +930,9 @@ esbuild@^0.23.1:
     "@esbuild/win32-x64" "0.23.1"
 
 escalade@^3.1.1:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.2.tgz#54076e9ab29ea5bf3d8f1ed62acffbb88272df27"
-  integrity sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.2.0.tgz#011a3f69856ba189dffa7dc8fcce99d2a87903e5"
+  integrity sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==
 
 escape-string-regexp@^4.0.0:
   version "4.0.0"
