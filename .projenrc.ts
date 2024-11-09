@@ -23,6 +23,7 @@ const project = new awscdk.AwsCdkTypeScriptApp({
     mergify: true,
   },
   jest: false,
+  prettier: true,
   projenrcTs: true,
 });
 

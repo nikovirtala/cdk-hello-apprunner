@@ -2,6 +2,8 @@
 /.projen/
 permissions-backup.acl
 /.mergify.yml
+/.prettierignore
+/.prettierrc.json
 /test/
 /tsconfig.dev.json
 /src/
