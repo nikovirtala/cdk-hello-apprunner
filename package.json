@@ -36,7 +36,7 @@
     "prettier": "^3.5.2",
     "projen": "^0.91.13",
     "ts-node": "^10",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   },
   "dependencies": {
     "@aws-cdk/aws-apprunner-alpha": "2.165.0-alpha.0",
