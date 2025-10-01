@@ -34,9 +34,9 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.4",
     "prettier": "^3.6.2",
-    "projen": "^0.96.3",
+    "projen": "^0.96.5",
     "ts-node": "^10",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
     "@aws-cdk/aws-apprunner-alpha": "2.165.0-alpha.0",
