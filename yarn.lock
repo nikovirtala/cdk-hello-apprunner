@@ -656,9 +656,9 @@ aws-cdk-lib@^2.165.0:
     yaml "1.10.2"
 
 aws-cdk@^2:
-  version "2.1100.0"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1100.0.tgz#57c5e240fd91ccee3754bae67d454d5d789deca3"
-  integrity sha512-EadIbrhBodY6Sl+7ujTgZGCyUdcDpbWdDEqq9HsAtYW4CiB/Idu30O7mwITXCqiMAGreko/clMttVh/XfgEbJA==
+  version "2.1034.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.1034.0.tgz#ce4172c1245940f84b31af12af9c4477a84ce600"
+  integrity sha512-YsIeXmMP/9eGml/eoPs64kHzNR0IVezzwuH0XrLOtUCjYNb80cmmjoCNsMn96u9rJOte1Yg3jitrHi1wTqXAqw==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -2122,10 +2122,10 @@ prettier@^3.7.4:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.4.tgz#d2f8335d4b1cec47e1c8098645411b0c9dff9c0f"
   integrity sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==
 
-projen@^0.98.29:
-  version "0.98.29"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.98.29.tgz#46d58a50c487406b45d5ae34b2c6c17dadf54d08"
-  integrity sha512-h5rbJZLINw63JcVOvgFJqXr++PJ3sCsYGgLOT4ZqboIOiiPOp7j6JaTrfNscFDOKhLX81lsOWmqOAb7VYIxZyQ==
+projen@^0.98.30:
+  version "0.98.30"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.98.30.tgz#5c8498856cf4612842c6e54761211303344c8d0d"
+  integrity sha512-V5XtN30jLClmHWyzkruk1Uo3TjJBtm0/WAHzR9GGSG2PrjOrnj9qF7at7li/Bf/OODO/kyalRWK7SLGpyjSU8w==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
