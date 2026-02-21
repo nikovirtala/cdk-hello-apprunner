@@ -34,14 +34,14 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.5",
     "prettier": "^3.8.1",
-    "projen": "^0.99.13",
+    "projen": "^0.99.15",
     "ts-node": "^10",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "@aws-cdk/aws-apprunner-alpha": "2.165.0-alpha.0",
     "aws-cdk-lib": "^2.165.0",
-    "constructs": "^10.0.5"
+    "constructs": "^10.5.1"
   },
   "license": "MIT",
   "publishConfig": {
