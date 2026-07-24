@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@aws-cdk/aws-apprunner-alpha": "2.165.0-alpha.0",
-    "aws-cdk-lib": "^2.165.0",
+    "aws-cdk-lib": "^2.260.0",
     "constructs": "^10.5.1"
   },
   "license": "MIT",
