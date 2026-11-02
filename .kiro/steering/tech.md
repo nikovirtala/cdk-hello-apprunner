@@ -9,15 +9,15 @@ This project uses **Projen** (with `AwsCdkTypeScriptAppProject` from `@nikovirta
 ## Core Technologies
 
 - **AWS CDK**: v2.165.0 - Infrastructure as Code framework
-- **TypeScript**: v5.9.3 - Primary language
-- **Node.js**: v18+ - Runtime environment
+- **TypeScript**: Primary language, ES modules
+- **Node.js**: Runtime environment, version pinned in `mise.toml`
 - **AWS App Runner**: Alpha construct library for App Runner service deployment
 
 ## Development Tools
 
 - **Biome**: Linting and formatting
 - **Vitest**: Tests in `test/`
-- **esbuild**: Fast TypeScript bundling
+- **pnpm**: Package manager
 - **tsx**: TypeScript execution (ES modules)
 
 ## Common Commands
