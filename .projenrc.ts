@@ -1,30 +1,15 @@
-import { awscdk } from "projen";
+import { AwsCdkTypeScriptAppProject } from "@nikovirtala/projen-constructs";
 
 const cdkVersion = "2.165.0";
 
-const project = new awscdk.AwsCdkTypeScriptApp({
+const project = new AwsCdkTypeScriptAppProject({
   license: "MIT",
   copyrightOwner: "Niko Virtala",
   cdkVersion: cdkVersion,
-  devDeps: ["prettier"],
+  devDeps: ["@nikovirtala/projen-constructs"],
   defaultReleaseBranch: "main",
   name: "cdk-hello-apprunner",
   deps: [`@aws-cdk/aws-apprunner-alpha@${cdkVersion}-alpha.0`],
-  depsUpgradeOptions: {
-    workflowOptions: {
-      labels: ["auto-approve", "auto-merge"],
-    },
-  },
-  autoApproveOptions: {
-    secret: "GITHUB_TOKEN",
-    allowedUsernames: ["nikovirtala"],
-  },
-  githubOptions: {
-    mergify: true,
-  },
-  jest: false,
-  prettier: true,
-  projenrcTs: true,
 });
 
 project.synth();
