@@ -11,7 +11,7 @@
     },
     {
       "name": "@types/node",
-      "version": "^24",
+      "version": "^26",
       "type": "build"
     },
     {
@@ -38,12 +38,12 @@
     },
     {
       "name": "vitest",
-      "version": "^4",
+      "version": "^5",
       "type": "build"
     },
     {
       "name": "@vitest/coverage-v8",
-      "version": "^4",
+      "version": "^5",
       "type": "devenv"
     },
     {
