@@ -22,8 +22,8 @@ importers:
         specifier: ^2.5
         version: 2.6.4
       '@nikovirtala/projen-constructs':
-        specifier: ^0.4.0
-        version: 0.4.0(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.23(constructs@10.8.1))
+        specifier: ^0.5.3
+        version: 0.5.3(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.23(constructs@10.8.1))
       '@types/node':
         specifier: ^26
         version: 26.6.6
@@ -39,9 +39,6 @@ importers:
       projen:
         specifier: ^0.104.23
         version: 0.104.23(constructs@10.8.1)
-      tsx:
-        specifier: ^4.23.15
-        version: 4.23.15
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -489,13 +486,13 @@ packages:
       aws-cdk-lib: ^2.51.0
       constructs: ^10.5.0
 
-  '@nikovirtala/projen-constructs@0.4.0':
-    resolution: {integrity: sha512-FRAnB7t479XxBh/pwmfIq5Nej8YQfKqZeyMRCJFLr1RlU4LNxG7qDA+VTEIwhMGQSbln4Un9JYFlgyhyY1iMWQ==}
+  '@nikovirtala/projen-constructs@0.5.3':
+    resolution: {integrity: sha512-jCAFHYGl5znb9atYC500G3L2zt9uAkZcdhXeovjvmMJjfjvadmmvHds9PW654l8sGiz38m1GAdZ+awoE0+F2hw==}
     engines: {node: '>= 26.13.0'}
     peerDependencies:
       '@mrgrain/cdk-esbuild': ^5.8.5
       constructs: ^10.8.1
-      projen: ^0.104.21
+      projen: ^0.104.23
     bundledDependencies:
       - '@mrgrain/jsii-struct-builder'
       - case
@@ -1220,7 +1217,7 @@ snapshots:
     optionalDependencies:
       esbuild: 0.27.7
 
-  '@nikovirtala/projen-constructs@0.4.0(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.23(constructs@10.8.1))':
+  '@nikovirtala/projen-constructs@0.5.3(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.23(constructs@10.8.1))':
     dependencies:
       '@mrgrain/cdk-esbuild': 5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1)
       constructs: 10.8.1
@@ -1534,6 +1531,7 @@ snapshots:
       esbuild: 0.28.2
     optionalDependencies:
       fsevents: 2.3.3
+    optional: true
 
   typescript@6.0.3: {}
 
