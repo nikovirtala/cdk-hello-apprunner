@@ -101,7 +101,7 @@
       "description": "Synthesize project files",
       "steps": [
         {
-          "exec": "tsx --tsconfig test/tsconfig.json .projenrc.ts"
+          "exec": "node .projenrc.ts"
         },
         {
           "spawn": "install:homebrew"
@@ -305,7 +305,7 @@
             "--peer",
             "--no-deprecated",
             "--dep=dev,prod,peer,optional",
-            "--filter=@nikovirtala/projen-constructs,esbuild,projen,tsx"
+            "--filter=@nikovirtala/projen-constructs,esbuild,projen"
           ]
         },
         {
@@ -321,7 +321,6 @@
             "aws-cdk",
             "esbuild",
             "projen",
-            "tsx",
             "typescript",
             "vitest",
             "@vitest/coverage-v8",

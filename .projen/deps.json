@@ -28,10 +28,6 @@
       "type": "build"
     },
     {
-      "name": "tsx",
-      "type": "build"
-    },
-    {
       "name": "typescript",
       "version": "6.0.3",
       "type": "build"

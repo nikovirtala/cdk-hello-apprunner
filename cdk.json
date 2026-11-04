@@ -1,5 +1,5 @@
 {
-  "app": "npx tsx src/main.ts",
+  "app": "node src/main.ts",
   "output": "cdk.out",
   "build": "pnpm exec projen bundle",
   "watch": {

@@ -35,6 +35,8 @@
     ],
     "isolatedModules": true,
     "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
     "noEmit": true
   },
   "include": [
