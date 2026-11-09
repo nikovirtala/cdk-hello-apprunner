@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5",
-    "@nikovirtala/projen-constructs": "^0.5.8",
+    "@nikovirtala/projen-constructs": "^0.5.9",
     "@types/node": "^26",
     "@vitest/coverage-v8": "^5",
     "aws-cdk": "^2",
