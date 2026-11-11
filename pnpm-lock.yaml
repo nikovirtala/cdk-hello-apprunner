@@ -10,28 +10,28 @@ importers:
     dependencies:
       '@aws-cdk/aws-apprunner-alpha':
         specifier: 2.165.0-alpha.0
-        version: 2.165.0-alpha.0(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1)
+        version: 2.165.0-alpha.0(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1)
       aws-cdk-lib:
-        specifier: ^2.165.0
-        version: 2.275.0(constructs@10.8.1)
+        specifier: ^2.276.0
+        version: 2.276.0(constructs@10.8.1)
       constructs:
-        specifier: ^10.4.3
+        specifier: ^10.8.1
         version: 10.8.1
     devDependencies:
       '@biomejs/biome':
-        specifier: ^2.5
+        specifier: ^2.6.6
         version: 2.6.6
       '@nikovirtala/projen-constructs':
-        specifier: ^0.5.14
-        version: 0.5.14(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.27(constructs@10.8.1))
+        specifier: ^0.5.15
+        version: 0.5.15(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.27(constructs@10.8.1))
       '@types/node':
-        specifier: ^26
+        specifier: ^26.6.6
         version: 26.6.6
       '@vitest/coverage-v8':
-        specifier: ^5
+        specifier: ^5.1.0
         version: 5.1.0(vitest@5.1.0)
       aws-cdk:
-        specifier: ^2
+        specifier: ^2.1148.0
         version: 2.1148.0
       esbuild:
         specifier: ^0.28.2
@@ -43,7 +43,7 @@ importers:
         specifier: 6.0.3
         version: 6.0.3
       vitest:
-        specifier: ^5
+        specifier: ^5.1.0
         version: 5.1.0(@types/node@26.6.6)(@vitest/coverage-v8@5.1.0)(vite@8.3.5(@types/node@26.6.6)(esbuild@0.28.2)(tsx@4.23.15))
 
 packages:
@@ -486,8 +486,8 @@ packages:
       aws-cdk-lib: ^2.51.0
       constructs: ^10.5.0
 
-  '@nikovirtala/projen-constructs@0.5.14':
-    resolution: {integrity: sha512-KrFQThGFOBKELe1PIHgCqKX/t6LaGznzc0trNqym9M4j4RQStBhbeG/7q5M4H/YAHCovcVKKyaCItHrlDNDhSA==}
+  '@nikovirtala/projen-constructs@0.5.15':
+    resolution: {integrity: sha512-VSgHaHjX4m/vpfXY392svIu1A+6EmnF2jN43WFxxPCS2yMocY5DWqc4LbyojFyFmnDY+qUJU8kiFnLcm7Jd/QA==}
     engines: {node: '>= 26.13.0'}
     peerDependencies:
       '@mrgrain/cdk-esbuild': ^5.8.5
@@ -649,8 +649,8 @@ packages:
   ast-v8-to-istanbul@1.0.7:
     resolution: {integrity: sha512-kFL68AG6ajd8fg248zwM9GQrUWEp79gsmjum34OEXjs4yHuUMZfYKwOLW9GMmB4oNvVrj+EAGxsP7ye2UR9UlA==}
 
-  aws-cdk-lib@2.275.0:
-    resolution: {integrity: sha512-Gjj1tM3dQedhsI7MdwMvULF1PzgEO/zX0KFHU9xwZskkSL9057IZB4fJWm9nL+aaNU3TU+lNt8uB6d8QcZtUpQ==}
+  aws-cdk-lib@2.276.0:
+    resolution: {integrity: sha512-K+yxURPKRDRDgaPazG4PKFmFHM/igg3kGp6tkPJ6vba8FMEo3DtJ/X6WaY5KvcwrkiKj2K7gFRZB6DO5aPYxxg==}
     engines: {node: '>= 20.0.0'}
     peerDependencies:
       constructs: ^10.5.0
@@ -980,9 +980,9 @@ snapshots:
 
   '@aws-cdk/asset-node-proxy-agent-v6@2.1.3': {}
 
-  '@aws-cdk/aws-apprunner-alpha@2.165.0-alpha.0(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1)':
+  '@aws-cdk/aws-apprunner-alpha@2.165.0-alpha.0(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1)':
     dependencies:
-      aws-cdk-lib: 2.275.0(constructs@10.8.1)
+      aws-cdk-lib: 2.276.0(constructs@10.8.1)
       constructs: 10.8.1
 
   '@aws-cdk/cloud-assembly-schema@55.3.0': {}
@@ -1210,16 +1210,16 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.6.0
 
-  '@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1)':
+  '@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1)':
     dependencies:
-      aws-cdk-lib: 2.275.0(constructs@10.8.1)
+      aws-cdk-lib: 2.276.0(constructs@10.8.1)
       constructs: 10.8.1
     optionalDependencies:
       esbuild: 0.27.7
 
-  '@nikovirtala/projen-constructs@0.5.14(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.27(constructs@10.8.1))':
+  '@nikovirtala/projen-constructs@0.5.15(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.27(constructs@10.8.1))':
     dependencies:
-      '@mrgrain/cdk-esbuild': 5.8.5(aws-cdk-lib@2.275.0(constructs@10.8.1))(constructs@10.8.1)
+      '@mrgrain/cdk-esbuild': 5.8.5(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1)
       constructs: 10.8.1
       projen: 0.104.27(constructs@10.8.1)
 
@@ -1322,7 +1322,7 @@ snapshots:
       estree-walker: 3.0.3
       js-tokens: 10.0.0
 
-  aws-cdk-lib@2.275.0(constructs@10.8.1):
+  aws-cdk-lib@2.276.0(constructs@10.8.1):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.292
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.3
