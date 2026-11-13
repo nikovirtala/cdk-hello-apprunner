@@ -33,6 +33,7 @@ jspm_packages/
 .yarn-integrity
 .cache
 !/.github/workflows/build.yml
+!/.github/workflows/self-mutation.yml
 !/.mergify.yml
 !/.github/workflows/upgrade.yml
 !/.github/pull_request_template.md

@@ -22,8 +22,8 @@ importers:
         specifier: ^2.5
         version: 2.6.7
       '@nikovirtala/projen-constructs':
-        specifier: ^0.5.17
-        version: 0.5.17(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.27(constructs@10.8.1))
+        specifier: ^0.5.18
+        version: 0.5.18(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.31(constructs@10.8.1))
       '@types/node':
         specifier: ^26
         version: 26.6.6
@@ -37,8 +37,8 @@ importers:
         specifier: ^0.28.2
         version: 0.28.2
       projen:
-        specifier: ^0.104.27
-        version: 0.104.27(constructs@10.8.1)
+        specifier: ^0.104.31
+        version: 0.104.31(constructs@10.8.1)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -486,9 +486,9 @@ packages:
       aws-cdk-lib: ^2.51.0
       constructs: ^10.5.0
 
-  '@nikovirtala/projen-constructs@0.5.17':
-    resolution: {integrity: sha512-3KljXM49Suo+cFOXRCBj6Aw2qjrv/2cqYBKcP24eR7zWkQYFqI/ZDa7enSwzLXWaxL/XMa+Xv8E0gTeRxqnMnw==}
-    engines: {node: '>= 26.13.0'}
+  '@nikovirtala/projen-constructs@0.5.18':
+    resolution: {integrity: sha512-AhvMnb6r7VpJs/2UqMVIupVcr4iVGBZ1l6dRm2LUP7oZqiZRpbODUMAQkBQ8rVQHKf25eCX0Tu5QiwdAX8iqjA==}
+    engines: {node: '>= 26.13.1'}
     peerDependencies:
       '@mrgrain/cdk-esbuild': ^5.8.5
       constructs: ^10.8.1
@@ -821,8 +821,8 @@ packages:
     resolution: {integrity: sha512-LJlKCCAUFKOuZxipUdYw1NzIITEsPcgyOG9LkvRJvuKj/bRzbuRY0ARXvL0pWGpsZvn8jku+LMep2eU0seHp8g==}
     engines: {node: ^10 || ^12 || >=14}
 
-  projen@0.104.27:
-    resolution: {integrity: sha512-L02IpJLrgNUTs06ssI256E+E0uaFQ5QZG3VaPntMqXVlvnuDaCVJHPx6JGt6pM/fxgvy0ZAKaLYxY3sSGXEOgg==}
+  projen@0.104.31:
+    resolution: {integrity: sha512-yXAKvZxey2Gb3LVFv3prf+sNWXcDmOPlCD8YcK2BcNCleIhVj/xr2fWhkXqsNUX8KUKT8Z2leP+vMh98DOlReQ==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -1217,11 +1217,11 @@ snapshots:
     optionalDependencies:
       esbuild: 0.27.7
 
-  '@nikovirtala/projen-constructs@0.5.17(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.27(constructs@10.8.1))':
+  '@nikovirtala/projen-constructs@0.5.18(@mrgrain/cdk-esbuild@5.8.5(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1))(constructs@10.8.1)(projen@0.104.31(constructs@10.8.1))':
     dependencies:
       '@mrgrain/cdk-esbuild': 5.8.5(aws-cdk-lib@2.276.0(constructs@10.8.1))(constructs@10.8.1)
       constructs: 10.8.1
-      projen: 0.104.27(constructs@10.8.1)
+      projen: 0.104.31(constructs@10.8.1)
 
   '@oxc-project/types@0.156.0': {}
 
@@ -1486,7 +1486,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.2
 
-  projen@0.104.27(constructs@10.8.1):
+  projen@0.104.31(constructs@10.8.1):
     dependencies:
       constructs: 10.8.1
 
